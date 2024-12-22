@@ -1,0 +1,21 @@
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+.card {
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.badge {
+  font-size: 14px;
+}
+
+.alert {
+  margin-top: 20px;
+}

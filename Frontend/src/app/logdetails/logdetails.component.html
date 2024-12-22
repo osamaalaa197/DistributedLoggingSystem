@@ -1,0 +1,61 @@
+<div class="container" style="margin-top: 100px">
+  <div *ngIf="isLoading" class="text-center">
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+  <!-- Error Message -->
+  <div *ngIf="errorMessage" class="alert alert-danger text-center" role="alert">
+    {{ errorMessage }}
+  </div>
+
+  <!-- Log Details -->
+  <div *ngIf="logDetails" class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="card shadow">
+        <div class="card-header bg-primary text-white text-center">
+          <h4>Log Details</h4>
+        </div>
+        <div class="card-body">
+          <div class="row mb-3">
+            <div class="col-4 text-muted">Service:</div>
+            <div class="col-8">{{ logDetails.service }}</div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-4 text-muted">Timestamp:</div>
+            <div class="col-8">
+              {{ logDetails.timestamp | date : "medium" }}
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-4 text-muted">Level:</div>
+            <div class="col-8">
+              <span
+                class="badge"
+                [ngClass]="{
+                  'bg-danger': logDetails.level === 'ERROR',
+                  'bg-warning': logDetails.level === 'WARN',
+                  'bg-success': logDetails.level === 'INFO'
+                }"
+              >
+                {{ logDetails.level }}
+              </span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4 text-muted">Message:</div>
+            <div class="col-8">{{ logDetails.message }}</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Back Button -->
+      <div class="text-center mt-4">
+        <button class="btn btn-secondary" routerLink="/Log">
+          Back to Logs
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

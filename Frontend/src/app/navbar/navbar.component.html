@@ -1,0 +1,66 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="">Distributed Logging System</a>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      @if (_userService.currenUser()) {
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="/Log"
+            routerLinkActive="active"
+            ariaCurrentWhenActive="page"
+            >Log List</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="/AddLog"
+            routerLinkActive="active"
+            ariaCurrentWhenActive="page"
+            >Add Log</a
+          >
+        </li>
+      </ul>
+      } @if (_userService.currenUser()) {
+      <div class="dropdown" dropdown>
+        <a
+          class="dropdown-toggle text-light text-decoration-none"
+          aria-expanded="false"
+          aria-haspopup="true"
+          dropdownToggle
+        >
+          Welcome User
+        </a>
+        <div *dropdownMenu class="dropdown-menu">
+          <a class="dropdown-item" (click)="logOut()">Logout</a>
+        </div>
+      </div>
+      } @if (!_userService.currenUser()) {
+      <form
+        [formGroup]="loginForm"
+        (ngSubmit)="onSubmit()"
+        class="d-flex"
+        role="search"
+      >
+        <input
+          class="form-control me-2"
+          type="Gmail"
+          placeholder="Gmail"
+          aria-label="Enter your Email"
+          formControlName="email"
+        />
+        <input
+          class="form-control me-2"
+          type="password"
+          placeholder="password"
+          aria-label="Enter your Email"
+          formControlName="password"
+        />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      }
+    </div>
+  </div>
+</nav>

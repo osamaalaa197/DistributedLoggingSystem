@@ -1,0 +1,59 @@
+@if (userService.currenUser()) {
+<div class="container" style="margin-top: 100px">
+  <h3>Add new Log</h3>
+  <form #registerForm="ngForm" (submit)="addLog()" autocomplete="off">
+    <div class="mb-3 form-floating">
+      <input
+        type="text"
+        class="form-control"
+        name="Service"
+        [(ngModel)]="Model.Service"
+        placeholder="service"
+        required
+      />
+      <label>Service</label>
+    </div>
+    <div class="mb-3 form-floating">
+      <select
+        class="form-control"
+        name="Level"
+        [(ngModel)]="Model.Level"
+        required
+      >
+        <option value="" disabled selected>Select log level</option>
+        <option *ngFor="let level of logLevels" [value]="level">
+          {{ level }}
+        </option>
+      </select>
+      <label>Level</label>
+    </div>
+    <div class="mb-3 form-floating">
+      <input
+        type="text"
+        class="form-control"
+        name="Message"
+        [(ngModel)]="Model.Message"
+        placeholder="message"
+        required
+      />
+      <label>Message</label>
+    </div>
+    <div class="mb-3 form-floating">
+      <input
+        type="datetime-local"
+        class="form-control"
+        name="Timestamp"
+        [(ngModel)]="Model.Timestamp"
+        placeholder="Timestamp"
+        required
+      />
+      <label>Timestamp</label>
+    </div>
+    <div class="form-group text-center">
+      <button class="btn btn-success me-2" type="submit">Save</button>
+    </div>
+  </form>
+</div>
+}@else {
+<app-unauthorized></app-unauthorized>
+}

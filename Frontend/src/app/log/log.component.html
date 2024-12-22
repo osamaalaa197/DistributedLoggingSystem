@@ -1,0 +1,117 @@
+@if (userService.currenUser()) {
+<div class="container mt-5">
+  <h2 class="mb-4">Log Filters</h2>
+  <form (ngSubmit)="applyFilters()" #filterForm="ngForm" class="mb-4">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="service">Service:</label>
+          <input
+            type="text"
+            id="service"
+            [(ngModel)]="serviceFilter"
+            name="service"
+            class="form-control"
+          />
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="level">Level:</label>
+          <select
+            id="level"
+            [(ngModel)]="levelFilter"
+            name="level"
+            class="form-control"
+          >
+            <option value="" disabled selected>Select log level</option>
+            <option *ngFor="let level of logLevels" [value]="level">
+              {{ level }}
+            </option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="startTime">Start Time:</label>
+          <input
+            type="datetime-local"
+            id="startTime"
+            [(ngModel)]="startTimeFilter"
+            name="startTime"
+            class="form-control"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="endTime">End Time:</label>
+          <input
+            type="datetime-local"
+            id="endTime"
+            [(ngModel)]="endTimeFilter"
+            name="endTime"
+            class="form-control"
+          />
+        </div>
+      </div>
+      <div class="col-md-4 d-flex align-items-end">
+        <button type="submit" class="btn btn-primary">Apply Filters</button>
+      </div>
+    </div>
+  </form>
+
+  <div *ngIf="isLoading" class="alert alert-info">Loading logs...</div>
+  <table
+    *ngIf="!isLoading && logs.length > 0"
+    class="table table-bordered table-striped"
+  >
+    <thead class="thead-dark">
+      <tr>
+        <th class="text-center">Service</th>
+        <th class="text-center">Level</th>
+        <th class="text-center">Timestamp</th>
+        <th class="text-center">Message</th>
+        <th class="text-center">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let log of logs">
+        <td class="text-center">{{ log.service }}</td>
+        <td class="text-center">{{ log.level }}</td>
+        <td class="text-center">{{ log.timestamp | date : "short" }}</td>
+        <td class="text-center">{{ log.message }}</td>
+        <button class="btn btn-primary btn-sm" (click)="viewLogDetails(log.id)">
+          View Details
+        </button>
+      </tr>
+    </tbody>
+  </table>
+  <div *ngIf="!isLoading && logs.length === 0" class="alert alert-warning">
+    No logs found.
+  </div>
+  <nav>
+    <ul class="pagination justify-content-center mt-3">
+      <li class="page-item" [ngClass]="{ disabled: pageNumber <= 1 }">
+        <a class="page-link" (click)="changePage(pageNumber - 1)">Previous</a>
+      </li>
+      <li class="page-item disabled">
+        <a class="page-link" href="#"
+          >Page {{ pageNumber }} of
+          {{ (totalRecords + pageSize - 1) / pageSize | number : "1.0-0" }}</a
+        >
+      </li>
+      <li
+        class="page-item"
+        [ngClass]="{ disabled: pageNumber * pageSize >= totalRecords }"
+      >
+        <a class="page-link" (click)="changePage(pageNumber + 1)">Next</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+}@else {
+<app-unauthorized></app-unauthorized>
+}
