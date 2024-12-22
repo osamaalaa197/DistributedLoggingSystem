@@ -1,0 +1,6 @@
+@DistributedLoggingSystem_HostAddress = http://localhost:5265
+
+GET {{DistributedLoggingSystem_HostAddress}}/v1/logs
+Accept: application/json
+
+###

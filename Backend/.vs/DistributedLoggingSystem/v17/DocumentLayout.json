@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\iti\\data\\Projects\\DistributedLoggingSystem\\Backend\\DistributedLoggingSystem\\DistributedLoggingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB17DB4-87A0-496B-A759-6A42A6B4F262}|DistributedLoggingSystem\\DistributedLoggingSystem.csproj|d:\\iti\\data\\projects\\distributedloggingsystem\\backend\\distributedloggingsystem\\distributedloggingsystem\\distributedloggingsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0EB17DB4-87A0-496B-A759-6A42A6B4F262}|DistributedLoggingSystem\\DistributedLoggingSystem.csproj|solutionrelative:distributedloggingsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB17DB4-87A0-496B-A759-6A42A6B4F262}|DistributedLoggingSystem\\DistributedLoggingSystem.csproj|d:\\iti\\data\\projects\\distributedloggingsystem\\backend\\distributedloggingsystem\\distributedloggingsystem\\distributedloggingsystem\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB17DB4-87A0-496B-A759-6A42A6B4F262}|DistributedLoggingSystem\\DistributedLoggingSystem.csproj|solutionrelative:distributedloggingsystem\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7B7AE2-4427-4363-9C90-88D6AE58C042}|DistributedLoggingSystem.EF\\DistributedLoggingSystem.EF.csproj|d:\\iti\\data\\projects\\distributedloggingsystem\\backend\\distributedloggingsystem\\distributedloggingsystem\\distributedloggingsystem.ef\\repository\\rabbitmqlogsender.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7B7AE2-4427-4363-9C90-88D6AE58C042}|DistributedLoggingSystem.EF\\DistributedLoggingSystem.EF.csproj|solutionrelative:distributedloggingsystem.ef\\repository\\rabbitmqlogsender.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7B7AE2-4427-4363-9C90-88D6AE58C042}|DistributedLoggingSystem.EF\\DistributedLoggingSystem.EF.csproj|d:\\iti\\data\\projects\\distributedloggingsystem\\backend\\distributedloggingsystem\\distributedloggingsystem\\distributedloggingsystem.ef\\repository\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7B7AE2-4427-4363-9C90-88D6AE58C042}|DistributedLoggingSystem.EF\\DistributedLoggingSystem.EF.csproj|solutionrelative:distributedloggingsystem.ef\\repository\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB17DB4-87A0-496B-A759-6A42A6B4F262}|DistributedLoggingSystem\\DistributedLoggingSystem.csproj|d:\\iti\\data\\projects\\distributedloggingsystem\\backend\\distributedloggingsystem\\distributedloggingsystem\\distributedloggingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB17DB4-87A0-496B-A759-6A42A6B4F262}|DistributedLoggingSystem\\DistributedLoggingSystem.csproj|solutionrelative:distributedloggingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30201FE2-B02C-4671-BE5F-983E02D7E8FC}|DistributedLoggingSystem.Core\\DistributedLoggingSystem.Core.csproj|d:\\iti\\data\\projects\\distributedloggingsystem\\backend\\distributedloggingsystem\\distributedloggingsystem\\distributedloggingsystem.core\\dto\\logdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30201FE2-B02C-4671-BE5F-983E02D7E8FC}|DistributedLoggingSystem.Core\\DistributedLoggingSystem.Core.csproj|solutionrelative:distributedloggingsystem.core\\dto\\logdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\iti\\data\\Projects\\DistributedLoggingSystem\\Backend\\DistributedLoggingSystem\\DistributedLoggingSystem\\DistributedLoggingSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "DistributedLoggingSystem\\appsettings.json",
+              "ToolTip": "D:\\iti\\data\\Projects\\DistributedLoggingSystem\\Backend\\DistributedLoggingSystem\\DistributedLoggingSystem\\DistributedLoggingSystem\\appsettings.json",
+              "RelativeToolTip": "DistributedLoggingSystem\\appsettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-22T17:57:57.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RabbitMQLogSender.cs.cs",
+              "DocumentMoniker": "D:\\iti\\data\\Projects\\DistributedLoggingSystem\\Backend\\DistributedLoggingSystem\\DistributedLoggingSystem\\DistributedLoggingSystem.EF\\Repository\\RabbitMQLogSender.cs.cs",
+              "RelativeDocumentMoniker": "DistributedLoggingSystem.EF\\Repository\\RabbitMQLogSender.cs.cs",
+              "ToolTip": "D:\\iti\\data\\Projects\\DistributedLoggingSystem\\Backend\\DistributedLoggingSystem\\DistributedLoggingSystem\\DistributedLoggingSystem.EF\\Repository\\RabbitMQLogSender.cs.cs",
+              "RelativeToolTip": "DistributedLoggingSystem.EF\\Repository\\RabbitMQLogSender.cs.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAlwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T17:45:27.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogsController.cs",
+              "DocumentMoniker": "D:\\iti\\data\\Projects\\DistributedLoggingSystem\\Backend\\DistributedLoggingSystem\\DistributedLoggingSystem\\DistributedLoggingSystem\\Controllers\\LogsController.cs",
+              "RelativeDocumentMoniker": "DistributedLoggingSystem\\Controllers\\LogsController.cs",
+              "ToolTip": "D:\\iti\\data\\Projects\\DistributedLoggingSystem\\Backend\\DistributedLoggingSystem\\DistributedLoggingSystem\\DistributedLoggingSystem\\Controllers\\LogsController.cs",
+              "RelativeToolTip": "DistributedLoggingSystem\\Controllers\\LogsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T00:08:08.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LogDto.cs",
+              "DocumentMoniker": "D:\\iti\\data\\Projects\\DistributedLoggingSystem\\Backend\\DistributedLoggingSystem\\DistributedLoggingSystem\\DistributedLoggingSystem.Core\\DTO\\LogDto.cs",
+              "RelativeDocumentMoniker": "DistributedLoggingSystem.Core\\DTO\\LogDto.cs",
+              "ToolTip": "D:\\iti\\data\\Projects\\DistributedLoggingSystem\\Backend\\DistributedLoggingSystem\\DistributedLoggingSystem\\DistributedLoggingSystem.Core\\DTO\\LogDto.cs",
+              "RelativeToolTip": "DistributedLoggingSystem.Core\\DTO\\LogDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T00:19:07.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogRepository.cs",
+              "DocumentMoniker": "D:\\iti\\data\\Projects\\DistributedLoggingSystem\\Backend\\DistributedLoggingSystem\\DistributedLoggingSystem\\DistributedLoggingSystem.EF\\Repository\\LogRepository.cs",
+              "RelativeDocumentMoniker": "DistributedLoggingSystem.EF\\Repository\\LogRepository.cs",
+              "ToolTip": "D:\\iti\\data\\Projects\\DistributedLoggingSystem\\Backend\\DistributedLoggingSystem\\DistributedLoggingSystem\\DistributedLoggingSystem.EF\\Repository\\LogRepository.cs",
+              "RelativeToolTip": "DistributedLoggingSystem.EF\\Repository\\LogRepository.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAQwJUAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T20:38:45.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\iti\\data\\Projects\\DistributedLoggingSystem\\Backend\\DistributedLoggingSystem\\DistributedLoggingSystem\\DistributedLoggingSystem\\Program.cs",
+              "RelativeDocumentMoniker": "DistributedLoggingSystem\\Program.cs",
+              "ToolTip": "D:\\iti\\data\\Projects\\DistributedLoggingSystem\\Backend\\DistributedLoggingSystem\\DistributedLoggingSystem\\DistributedLoggingSystem\\Program.cs",
+              "RelativeToolTip": "DistributedLoggingSystem\\Program.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAD4v3UAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T17:43:35.039Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 348,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
